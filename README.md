@@ -1,7 +1,6 @@
 # nanu-sketches
-Random Nannou sketches
 
-(yes, nanu is a German pun)
+(yes, *nanu* is a German pun)
 
 ## Fluid
 
@@ -9,4 +8,13 @@ Random Nannou sketches
 
 ## Liquid Smooth
 
-(bin) Example sketch using Fluid 
+(bin) Example sketch using Fluid. (yes, *liquid smooth* like the Mitski song)
+
+
+# Running things
+
+This is a standard setup with cargo workspaces.
+
+Run `$ cargo build` to build all crates.
+
+To run Liquid Smooth (you can't run Fluid since it's only a lib) run `$ cargo run -p liquid_smooth`.
